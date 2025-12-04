@@ -27,6 +27,13 @@ controls:
     - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
     - path: ../lib/macos/scripts/set-timezone.script.sh
 team_settings:
+  webhook_settings:
+    failing_policies_webhook:
+      enable_failing_policies_webhook: true
+      destination_url: https://webhook.site/3c910c68-0a12-4557-a9b8-8e014769295a
+      host_batch_size: 0
+      policy_ids: 
+        -1995
   secrets:
     - secret: "$FLEET_ENGINEERING_ENROLL_SECRET"
   features:
