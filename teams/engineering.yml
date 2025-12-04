@@ -39,7 +39,7 @@ team_settings:
   features:
     enable_host_users: true
     enable_software_inventory: true
-  software:
+software:
     packages:
       - path: ../lib/macos/software/zoom.yml
       - path: ../lib/windows/software/cloudflare-warp.yml
