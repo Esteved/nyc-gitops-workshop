@@ -14,9 +14,9 @@ org_settings:
   webhook_settings:
     activities_webhook:
       enable_activities_webhook: true
-      destination_url: https://3c910c68-0a12-4557-a9b8-8e014769295a
+      destination_url: https://webhook.site/3c910c68-0a12-4557-a9b8-8e014769295a
   fleet_desktop:
-    Transparency_url: https://google.com
+    Transparency_url: https://www.google.com/
    host_expiry_settings:
     host_expiry_enabled: true
     host_expiry_window: 30 
